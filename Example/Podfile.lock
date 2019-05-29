@@ -1,15 +1,35 @@
 PODS:
-  - YABasicViewController (0.1.0)
+  - PureLayout (3.1.4)
+  - YABasicFoundation (1.0.0)
+  - YABasicUIKit (1.0.0):
+    - PureLayout
+  - YABasicUtilites (1.0.0):
+    - YABasicFoundation
+  - YABasicViewController (0.1.0):
+    - YABasicFoundation
+    - YABasicUIKit
+    - YABasicUtilites
 
 DEPENDENCIES:
   - YABasicViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+    - YABasicFoundation
+    - YABasicUIKit
+    - YABasicUtilites
 
 EXTERNAL SOURCES:
   YABasicViewController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YABasicViewController: db5cb4823525335a6e8197f0dccd661e4d89b93b
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  YABasicFoundation: 94fa052662d9894c9e894e42f9007f433d48f6c4
+  YABasicUIKit: 85f540d9aa32787588d6e58565a29e25a4a72bd3
+  YABasicUtilites: d785a30b6726552eac2485fcde82a9d5ec878bd1
+  YABasicViewController: 8e8632bc0ed985ea726920c1c55f744e9486857c
 
 PODFILE CHECKSUM: 4b7e6116c09f16bd2beb317116bba2592436b4db
 

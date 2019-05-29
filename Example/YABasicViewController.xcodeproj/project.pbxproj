@@ -346,10 +346,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YABasicViewController_Example/Pods-YABasicViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/YABasicFoundation/YABasicFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/YABasicUIKit/YABasicUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YABasicUtilites/YABasicUtilites.framework",
 				"${BUILT_PRODUCTS_DIR}/YABasicViewController/YABasicViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicUtilites.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

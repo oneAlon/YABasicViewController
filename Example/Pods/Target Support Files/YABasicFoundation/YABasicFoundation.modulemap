@@ -1,0 +1,6 @@
+framework module YABasicFoundation {
+  umbrella header "YABasicFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

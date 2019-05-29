@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "YABaseNavigationController.h"
+#import "UIViewController+BackToViewController.h"
+#import "YABaseViewController.h"
+#import "RTRootNavigationController.h"
+#import "UIViewController+RTRootNavigationController.h"
 
 FOUNDATION_EXPORT double YABasicViewControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YABasicViewControllerVersionString[];
