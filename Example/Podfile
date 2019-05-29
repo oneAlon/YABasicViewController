@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YABasicViewController_Example' do
+  pod 'YABasicViewController', :path => '../'
+
+  target 'YABasicViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
