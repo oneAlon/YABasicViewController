@@ -1,0 +1,6 @@
+framework module Pods_YABasicViewController_Example {
+  umbrella header "Pods-YABasicViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

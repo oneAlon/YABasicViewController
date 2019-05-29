@@ -1,0 +1,16 @@
+PODS:
+  - YABasicViewController (0.1.0)
+
+DEPENDENCIES:
+  - YABasicViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YABasicViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YABasicViewController: db5cb4823525335a6e8197f0dccd661e4d89b93b
+
+PODFILE CHECKSUM: 4b7e6116c09f16bd2beb317116bba2592436b4db
+
+COCOAPODS: 1.7.0.beta.1
